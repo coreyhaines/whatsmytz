@@ -1,0 +1,17 @@
+<html>
+
+<head>
+<title>What's my Timezone Offset</title>
+</head>
+<body>
+<h1>You are <span id='offset'></span> hours relative to UTC.</h1>
+
+<script>
+var offset = -(new Date()).getTimezoneOffset() / 60;
+console.log(document.getElementById("offset"));
+document.getElementById("offset").textContent = offset;
+
+</script>
+</body>
+</html>
+
