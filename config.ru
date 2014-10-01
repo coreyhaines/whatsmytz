@@ -1,3 +1,7 @@
+configure :production do
+  require 'newrelic_rpm'
+end
+
 use Rack::Static, :root => "."
 run lambda { |env|
   [
