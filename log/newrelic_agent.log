@@ -1,0 +1,14 @@
+# Logfile created on 2014-10-01 11:20:08 -0500 by logger.rb/44203
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Starting the New Relic agent in "development" environment.
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Reading configuration from config/newrelic.yml (/Users/coreyhaines/Documents/codes/timzone/whatsmytz)
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] ERROR : No application name configured.
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] ERROR : The Agent cannot start without at least one. Please check your 
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] ERROR : newrelic.yml and ensure that it is valid and has at least one 
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] ERROR : value set for app_name in the development 
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] ERROR : environment.
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Installing Net instrumentation
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Installing deferred Rack instrumentation
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Installing Rack::Builder middleware instrumentation
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Finished instrumentation
+[10/01/14 11:20:08 -0500 admins-MacBook-Air-146.local (20487)] INFO : Doing deferred dependency-detection before Rack startup

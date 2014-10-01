@@ -1,3 +1,5 @@
+require 'newrelic_rpm'
+
 # config/unicorn.rb
 worker_processes Integer(ENV["WEB_CONCURRENCY"] || 6)
 timeout 15
